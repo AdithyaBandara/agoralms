@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/90ee0495c7.js" crossorigin="anonymous"></script>
+    <title>AGORA INSTITUTE</title>
+</head>
+
+<body>
+    <div class="sub-bg">
+        <selection class="header">
+            <nav>
+                <a href="index.html"><img src="img/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu();"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">CLASSES</a></li>
+                        <li><a href="">SUBJECTS</a></li>
+                        <li><a href="">CONTACT</a></li>
+                        <li><a href="logi-register/register.html">LOGIN</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu();"></i>
+            </nav>
+            <h1>ABOUT US</h1>
+        </selection>
+    </div>
+
+    <!-- About Us Content -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We Are The Best Institute In Bakamoona Area.</h1>
+                <p>There's an old adage that raves about how college is supposed to be the best time of your life. While
+                    there's no denying the fun that comes from throwing the craziest themed parties, living on your own,
+                    and finally getting a taste of adulthood, college can also be very stressful. We've all been there
+                    before. When the weight of the semester starts to get a little heavy, there are sometimes when you
+                    need inspiration and encouragement to keep going. Chatting with your roomies and seeking help from a
+                    counselor or mentor are great ways to combat the stress of college, but sometimes, all you need is
+                    an uplifting quote to get you in the right mindset.</p>
+                    <a href="">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="img/about.jpg">
+                
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!----------------------FOOTER----------------------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Education is the most powerful weapon which you can use to change the world.</p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>© 2021 Agora Educational Institute. All Rights Reserved.</p>
+    </section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
